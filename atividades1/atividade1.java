@@ -13,10 +13,10 @@ public class atividade1 {
 			
 			//Entrada de dados
 			System.out.println("Digite o salário: ");
-			salario = leia.nextFloat();
+			salario = leia.nextDouble();
 			
 			System.out.println("Digite o abono: ");
-			abono = leia.nextFloat();
+			abono = leia.nextDouble();
 			
 			//Processamento
 			novoSalario = salario + abono;
