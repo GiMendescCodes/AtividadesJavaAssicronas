@@ -15,13 +15,13 @@ public class atividade2 {
 		System.out.printf("Digite a nota 1: ");
 		nota1 = leia.nextFloat();
 		
-		System.out.printf("Digite digite a nota 2: ");
+		System.out.printf("Digite a nota 2: ");
 		nota2 = leia.nextFloat();
 		
 		System.out.printf("Digite a nota 3: ");
 		nota3 = leia.nextFloat();
 		
-		System.out.printf("Digite digite a nota 4: ");
+		System.out.printf("Digite a nota 4: ");
 		nota4 = leia.nextFloat();
 		
 		//Processamento
