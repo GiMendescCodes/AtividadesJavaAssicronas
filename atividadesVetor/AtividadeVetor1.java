@@ -20,14 +20,14 @@ public class AtividadeVetor1 {
 		//Laço de repetição que percorre todas as posições do vetor
 		for (int posicao = 0; posicao < vetorNumeros.length; posicao++) {
 
-			//identifica se o numero escolhido pelo usuario é uma das opções e ja responde sua posição
+			//identifica se o número escolhido pelo usuario é uma das opções e ja responde sua posição
 			if (vetorNumeros[posicao] == numero) {
 				System.out.println("O número " + numero + " está na posição " + posicao);
 				encontrado = true;
 			}
 		}
 
-		//identifica que numúmero escolhido não era uma das opções
+		//identifica que númemero escolhido não era uma das opções e mostra resposta
 		if (!encontrado) {
 			System.out.println("O número "+ numero + " não foi encontrado!");
 		}
